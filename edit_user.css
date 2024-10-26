@@ -1,0 +1,129 @@
+.data {
+	padding: 20px;
+}
+.form {
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inputs {
+	padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputs span {
+	text-transform: uppercase;
+}
+.head {
+	text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    color: #227C67;
+}
+.inputs a {
+	padding: 8px 20px;
+    border-radius: 8px;
+	background-color: #227C67;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.inputs a:hover {
+	opacity: 0.72;
+}
+.inputs input {
+	background-color: #227C67;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 8px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.inputs input:hover {
+	opacity: 0.72;
+}
+.inputs input:active {
+	transform: scale(0.97);
+}
+.wrapper {
+	display: flex;
+	gap: 50px;
+	padding: 20px 0px 20px 20px;
+}
+.image {
+	align-content: center;
+}
+.image img{
+	object-fit: cover;
+	height: 400px;
+	width: 450px;
+}
+.fields {
+	display: flex;
+	flex-wrap: wrap;
+}
+.fields .field input {
+	margin: 10px 0px;
+	width: 100%;
+	border-radius: 5px;
+	padding: 12px 15px;
+	background-color: #dce4e4;
+
+}
+.fields .field input[type="file"] {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px 15px;
+	background-color: #dce4e4;
+}
+.fields .field input[type="radio"] {
+	width: 5%;
+    font-size: 12px;
+}
+.fields .field select {
+	width: 100%;
+	margin: 10px 0px;
+	border-radius: 5px;
+	padding: 12px 15px;
+	background-color: #dce4e4;
+}
+.field {
+	margin-right: 4%;
+	width: 46%;
+}
+.field span {
+	padding-left: 10px;
+	font-size: 18px;
+}
+.message {
+    margin: 5px 0px 5px 18px;
+    width: 92%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}.messageSuc {
+    margin: 5px 0px 5px 18px;
+    width: 92%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;}
+@media (max-width: 1200px) {
+	.image img{
+		object-fit: cover;
+		width: 300px;
+	}
+}
+@media (max-width: 700px) {
+	.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	padding: 20px 0px 20px 20px;
+	}
+}
